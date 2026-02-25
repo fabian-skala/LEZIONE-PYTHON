@@ -1,0 +1,16 @@
+[project]
+name = "lezione-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "panda>=0.3.1",
+    "pandas>=3.0.1",
+]
+
+[tool.uv]
+link-mode = "copy"
